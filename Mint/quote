@@ -1,0 +1,5 @@
+KeyStrPress Super_L
+KeyStrPress i
+KeyStrRelease i
+KeyStrRelease Super_L
+KeyStrRelease Return*EOF*
