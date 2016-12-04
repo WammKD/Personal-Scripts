@@ -9,7 +9,7 @@ ybar=${foo:yhead}
 yindex=`expr index "$ybar" " "`
 yfoo=${ybar:0:yindex}
 
-xdotool mousemove 1100 760
+xdotool mousemove 1215 760
 xdotool click 1
 sleep 0.1s
 xdotool mousemove $xfoo $yfoo
