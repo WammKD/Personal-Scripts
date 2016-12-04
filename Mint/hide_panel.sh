@@ -1,0 +1,13 @@
+#!/bin/bash
+
+state=$(gsettings get org.cinnamon panels-autohide)
+
+if
+	[ $state = "['1:true']" ]
+then
+	gsettings set org.cinnamon panels-autohide "['1:false']"
+	tint2
+else
+	gsettings set org.cinnamon panels-autohide "['1:true']"
+	killall tint2
+fi
